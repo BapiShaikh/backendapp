@@ -15,6 +15,10 @@ app.get("/login", (req, res) => {
   res.send("please login bapi");
 });
 
+app.get("/logout", (req, res) => {
+  res.send("logout your id");
+});
+
 app.get("/youtube", (req, res) => {
   res.send("<h2>You become a backend developer</h2>");
 });
